@@ -14,13 +14,13 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/pug.v
 ```
 > Vim
 
-```
+```sh
 git clone https://github.com/kristijanhusak/vim-packager ~/.vim/pack/packager/opt/vim-packager
 curl -fLo ~/.vim/autoload/pug.vim --create-dirs \
     https://raw.githubusercontent.com/TeoDev1611/pug.nvim/main/pug.vim
 ```
 
-# Windows
+## Windows
 
 > Neovim
 ```ps1
@@ -31,7 +31,7 @@ iwr -useb https://raw.githubusercontent.com/TeoDev1611/pug.nvim/main/pug.vim |`
 
 > Vim
 
-```
+```ps1
 git clone https://github.com/kristijanhusak/vim-packager ~/vimfiles/pack/packager/opt/vim-packager
 iwr -useb https://raw.githubusercontent.com/TeoDev1611/pug.nvim/main/pug.vim |`
     ni $HOME/vimfiles/autoload/pug.vim -Force
