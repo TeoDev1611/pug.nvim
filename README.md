@@ -1,6 +1,6 @@
 # pug.nvim
 
-A wrapper for vim packager with Vim Plug Experience 
+A wrapper for vim packager with Vim Plug Experience Inspired and using Plugpac
 
 # Installation
 
